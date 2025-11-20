@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8f0ff 0%, #f7fbff 100%);
+  color: #0f172a;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 18px 24px;
+  background: #0b213f;
+  color: #e7f1ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.app__header h1 {
+  margin: 0 0 6px;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+
+.app__header p {
+  margin: 0;
+  opacity: 0.75;
+}
+
+.app__status {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.app__controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+
+.app__controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: #d8e6ff;
+}
+
+.app__controls select {
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0 10px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #e7f1ff;
+}
+
+.fit-btn {
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #1e4fa3;
+  color: #e7f1ff;
+  cursor: pointer;
+}
+
+.fit-btn:hover {
+  background: #2763c4;
+}
+
+.map {
+  flex: 1;
+  min-height: 70vh;
+  margin: 16px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 14px 40px rgba(22, 51, 92, 0.22);
+  background: #dbeafe;
+}
+
+.map__overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #0b213f;
+  font-weight: 600;
+}
+
+.info-window {
+  padding: 8px 10px;
+  min-width: 180px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.info-window strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.fail-panel {
+  margin: 8px 16px 16px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #fff4f4;
+  color: #7a1f1f;
+  border: 1px solid #f5caca;
+  box-shadow: 0 4px 10px rgba(122, 31, 31, 0.1);
+}
+
+.fail-panel__title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.fail-panel ul {
+  margin: 0;
+  padding-left: 18px;
+  max-height: 200px;
+  overflow: auto;
+  font-size: 13px;
+}
