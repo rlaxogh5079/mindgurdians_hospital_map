@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mindgurdians_hospital_map/static/css/main.d4a3b3f2.css",
+    "main.js": "/mindgurdians_hospital_map/static/js/main.754b58ba.js",
+    "static/js/453.eb570f4f.chunk.js": "/mindgurdians_hospital_map/static/js/453.eb570f4f.chunk.js",
+    "index.html": "/mindgurdians_hospital_map/index.html",
+    "main.d4a3b3f2.css.map": "/mindgurdians_hospital_map/static/css/main.d4a3b3f2.css.map",
+    "main.754b58ba.js.map": "/mindgurdians_hospital_map/static/js/main.754b58ba.js.map",
+    "453.eb570f4f.chunk.js.map": "/mindgurdians_hospital_map/static/js/453.eb570f4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a3b3f2.css",
+    "static/js/main.754b58ba.js"
+  ]
+}
